@@ -7910,6 +7910,10 @@ void CHandlingManagerSA::InitializeDefaultHandlings ( void )
     m_OriginalHandlingData [207].ucTailLight = 1;
     m_OriginalHandlingData [207].ucAnimGroup = 0;
 
+    m_OriginalHandlingData [415].iVehicleID = 415;
+    m_OriginalHandlingData [415].fMass = 4000.000000f;
+    m_OriginalHandlingData [415].Transmission.fEngineAcceleration = 90.000000f;
+
     m_OriginalHandlingData [208].iVehicleID = 208;
     m_OriginalHandlingData [208].fMass = 100.000000f;
     m_OriginalHandlingData [208].fTurnMass = 24.100000f;
